@@ -11,14 +11,14 @@
     )
 
     Write-output "Fill variables."
-    $UsageLocation="NL" 
-    $UPNDomainName = "" #Azure AD Domain Name
+    $UsageLocation="South Africa North" 
+    $UPNDomainName = "lgatechnologies.co.za" #Azure AD Domain Name
     $JobIDValue = $PsPrivateMetaData.JobId.Guid
-    $ResourceGroup = "" #Resource Group of the Storage Account (logging)
-    $StorageAccountName = "" #Storage Account Name
-    $LicenseName = ":AAD_PREMIUM" #License SKU
+    $ResourceGroup = "WebApp1" #Resource Group of the Storage Account (logging)
+    $StorageAccountName = "webapp1storageacc" #Storage Account Name
+    $LicenseName = ":AAD_FREE" #License SKU
 
-    $StorageAccountKey = '' #Storage Account key
+    $StorageAccountKey = 'xLqs4HGKKyOj+p2jym1jFGy4zMxhrSx0xT10Ly3yzfKEdyiiqYOUhE/fl6BP2rCOWC9jsA8f1ebfgd0XrIvSUg==' #Storage Account key
 
     #Create Eventlog file
     Write-output "Create logfile."
