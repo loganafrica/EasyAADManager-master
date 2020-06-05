@@ -18,7 +18,7 @@
     $StorageAccountName = "webapp1storageacc" #Storage Account Name
     $LicenseName = ":AAD_FREE" #License SKU
 
-    $StorageAccountKey = 'xLqs4HGKKyOj+p2jym1jFGy4zMxhrSx0xT10Ly3yzfKEdyiiqYOUhE/fl6BP2rCOWC9jsA8f1ebfgd0XrIvSUg==' #Storage Account key
+    $StorageAccountKey = "xLqs4HGKKyOj+p2jym1jFGy4zMxhrSx0xT10Ly3yzfKEdyiiqYOUhE/fl6BP2rCOWC9jsA8f1ebfgd0XrIvSUg==" #Storage Account key
 
     #Create Eventlog file
     Write-output "Create logfile."
